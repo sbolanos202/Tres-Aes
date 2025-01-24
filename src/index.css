@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Estilo de la flecha anterior */
+.slick-prev {
+  color: blue; /* Cambia el color de la flecha a azul */
+  font-size: 30px; /* Cambia el tamaño de la flecha */
+  background-color: transparent; /* Fondo transparente */
+  border-radius: 50%; /* Si quieres redondearlas */
+  padding: 10px; /* Ajusta el padding para hacer la flecha más grande */
+}
+
+/* Estilo de la flecha siguiente */
+.slick-next {
+  color: blue; /* Cambia el color de la flecha a azul */
+  font-size: 30px; /* Cambia el tamaño de la flecha */
+  background-color: transparent; /* Fondo transparente */
+  border-radius: 50%; /* Si quieres redondearlas */
+  padding: 10px; /* Ajusta el padding para hacer la flecha más grande */
+}
+
+/* Cambiar el color cuando el mouse pasa sobre las flechas */
+.slick-prev:hover,
+.slick-next:hover {
+  color: red; /* Cambia el color a rojo cuando el mouse pasa sobre la flecha */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Un poco de fondo cuando se pasa el mouse */
+}
